@@ -2,7 +2,7 @@
 $host = "127.0.0.1";
 $username = "root";
 $password = "";
-$database_name = "nadi123";
+$database_name = "hany123";
 $connection = mysqli_connect($host, $username, $password, $database_name);
 
 // === FUNCTION KHUSUS ADMIN START ===
