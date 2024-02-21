@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2024 at 12:03 PM
+-- Generation Time: Feb 21, 2024 at 01:40 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `nadi123`
+-- Database: `hany123`
 --
 
 -- --------------------------------------------------------
@@ -41,8 +41,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `nama_admin`, `password`, `kode_admin`, `no_tlp`, `role`) VALUES
-(1, 'nadi', '1234', 'admin1', '0981726', 'admin'),
-(2, 'nadi2\r\n', '4321', 'admin2', '085870283409', 'petugas');
+(1, 'hany', '1234', 'admin1', '0981726', 'admin'),
+(2, 'hany2', '4321', 'admin2', '085870283409', 'petugas');
 
 -- --------------------------------------------------------
 
@@ -68,12 +68,12 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`cover`, `id_buku`, `kategori`, `judul`, `pengarang`, `penerbit`, `tahun_terbit`, `jumlah_halaman`, `buku_deskripsi`, `isi_buku`) VALUES
-('65d5cdacf2c76.png', 'z001', 'novel', 'kisah petualang harimau dan hewan lainya', 'Atisah', 'Kautsar Nadhim Novaldi', '0000-00-00', 31, 'harimau dengan teman-teman', '4_Kisah_Petualangan_Harimau_dan_Hewan_Lainnya nadi.pdf'),
-('65d5cfbded00d.png', 'z002', 'novel', 'ketika lilo piknik', 'Irawati Subrata ', 'Otoritas Jasa Keuangan ', '2020-07-01', 30, 'petani kelinci bergotong royong  ', '501_Buku 4 KETIKA LILO PIKNIK - LOWRES nadi.pdf'),
-('65d5d3321c317.png', 'z003', 'novel', 'pajak kita', 'Direktur Penyuluhan', 'Maura Handaru', '2014-12-11', 14, 'Anak adalah pribadi yang masih bersih dan peka terhadap lingkungan di sekitarnya. Anak-anak pada usia \r\ndini biasanya mempunyai perilaku-perilaku yang sesuai dengan apa yang diajarkan oleh orang tuanya, bah\r\nkan perilaku yang diajarkan oleh lingkungan sekitarnya', 'Buku Cergam Pajak Kita.pdf'),
-('65d5d4de25413.png', 'z004', 'novel', 'kancil', 'dr.rita kurnia', 'ur press pekanbaru', '2018-09-14', 24, 'cerita rakyat yg berkembang dalam massyarakat teradisional', 'BUKU-CERITA-KANCIL nadi.pdf'),
-('65d5d66410973.png', 'z005', 'novel', 'kapal kake bori si beruang bijak', 'mahasiswa pgsd unesa', 'riskya salsa bila', '2018-11-12', 12, 'Dongeng merupakan suatu hal yang sangat disenangi oleh anak-anak bahkan hingga \r\norang dewasa.', 'nadi.pdf'),
-('65d5d7febffcb.png', 'z006', 'novel', 'anak hebat', 'Endang Fatmawati', ' Leguty Media', '2022-01-25', 14, ' Adik-adik yang baik, tahukah bahwa buku ini sangat baik untuk kalian? Buku 20 \r\nKumpulan Cerita untuk Anak Hebat ini diharapkan dapat menjadi bacaan favorit.', 'Buku 20 Kumpulan Cerita untuk Anak Hebat nadi.pdf');
+('65d5e7cebffb5.png', 'z001', 'novel', 'alfred bernad novel', 'DO pictures', 'nobel edumedia', '1833-10-21', 15, 'Alfred Nobel pindah dari Paris ke San \r\nPRemo, Italia. Kekayaan yang melimpah dan tidak adanya \r\nketurunan membuat ia bingung untuk memberikan harta yang \r\ndimilikinya itu.', 'Ebook P20 Seri Ayo Menjadi Seperti Mereka Alfred Ber.pdf'),
+('65d5e8ba9a098.png', 'z002', 'novel', 'kapal kake bori si beruang bijak', 'mahasiswa pgsd unesa', 'Nabilla Rizky Amalia', '2021-11-16', 12, 'Dongeng merupakan suatu hal yang sangat disenangi oleh anak-anak bahkan hingga \r\norang dewasa. Dalam kegiatan mendongeng', '89871102-600b-4a19-a672-1a599752a49b.pdf'),
+('65d5e963670bc.png', 'z003', 'novel', 'kisah dua putri dan raja ular', 'dwi pratiwi', 'Badan Pengembangan dan Pembinaan Bahasa', '2016-12-10', 62, 'Karya sastra tidak hanya rangkaian kata demi kata, tetapi berbicara tentang \r\nkehidupan, baik secara realitas ada maupun hanya dalam gagasan atau cita-cita manusia. \r\nApabila berdasarkan realitas yang ada, biasanya karya sastra berisi pengalaman hidup,', '1129-SD-Kisah_Dua_Putri_dan_Si_Raja_Ular-Sj-Fiks.PDF'),
+('65d5eab316720.png', 'z004', 'novel', 'kalarahu', 'Mardiyanto ', 'Dendy Sugono', '2007-04-12', 66, 'Sastra itu menceritakan kehidupan orang-orang \r\ndalam suatu masyarakat, masyarakat desa ataupun \r\nmasyarakat kota', 'Kalarahu Kumpulan Cerita Rakyat Jawa.pdf'),
+('65d5ebff51e84.png', 'z005', 'novel', 'kalah oleh si cerdik', 'atisah', 'Asep Lukman Arif Hidayat', '2017-11-12', 65, 'Karya sastra tidak hanya rangkaian kata demi \r\nkata, tetapi berbicara tentang kehidupan, baik secara \r\nrealitas ada maupun hanya dalam gagasan atau cita\r\ncita manusia', '74._Isi_dan_Sampul_Kalah_oleh_Si_Cerdik.pdf'),
+('65d5ec8d12185.png', 'z006', 'novel', 'dongeng anak dunia', 'Dedik Dwi Prihatmoko', 'Maura Handaru ', '2019-11-11', 28, 'Suntikan pemahaman yang bermuara pada value secara tidak sadar \r\nmenstimulus anak untuk menjadi baik.', '3.  Lima Dongeng Anak Dunia SQUARE-membaca awal 21x21 28hlm.pdf');
 
 -- --------------------------------------------------------
 
